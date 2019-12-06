@@ -189,17 +189,14 @@ DOM要素から削除される時には「leave」という文字を含んだク
     }
      
 トランジションの使い分け
-
-    <button v-on:click="show=!show">トグルボタン</button>
     
     <transition name="demo">
         <div v-show="show">トランジションさせたい要素</div>
     </transition>
-        // css <style>タグの中に
     
-    /*1秒かけてfadeIn*/
+    /*5秒かけてfadeIn*/
     .demo-enter-active, .demo-leave-active{
-        transition:opacity 1s;
+        transition:opacity 5s;
     }
     
     .demo-enter, .demo-leave-to{
