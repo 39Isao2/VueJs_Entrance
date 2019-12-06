@@ -209,3 +209,8 @@ DOM要素から削除される時には「leave」という文字を含んだク
             <div v-show="show">トランジションさせたい要素</div>
         </transition>
     *?
+
+## これだけ覚えておくと迷わない
+
+要素が追加される時は .v-enter から .v-enter-to
+要素が削除される時は .v-leave から .v-leave-to
