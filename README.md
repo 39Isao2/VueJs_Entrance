@@ -71,3 +71,24 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
             message: "ここに好きなテキスト〜"
         }
     });
+    
+# いろんな基本機能 （チャプター1より）
+
+## 繰り返しの描画（foreach的な）
+ 
+    // HTML
+    <ul>
+        <li v-for="item in list">{{ item }} </li>
+    </ul>
+    
+    
+    // JavaScript
+    var app = new Vue({
+  
+        el:'#app',
+        
+        data:{
+            list: ['秋葉原','六本木', '配列で追加可能']
+        }
+    });
+ 
