@@ -210,8 +210,7 @@ DOM要素から削除される時には「leave」という文字を含んだク
         </transition>
     *?
 
-## これだけ覚えておくと迷わない
-
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 要素追加<br>
 .v-enter トランジション開始前<br>
 .v-enter-to トランジション中<br>
@@ -221,7 +220,21 @@ DOM要素から削除される時には「leave」という文字を含んだク
 .v-leave トランジション開始前<br>
 .v-leave-to トランジション中<br>
 .v-leave-active トランジション終了<br>
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
+## これだけ覚えておくと迷わない らしい
 
 要素が追加される時は .v-enter から .v-enter-to<br>
 要素が削除される時は .v-leave から .v-leave-to
+
+
+
+
+
+参考！<br>
+Vue.jsでスライドショー！
+https://qiita.com/ryo511/items/4c65caffb01ba13fb89b
+https://qiita.com/yske/items/7bc0df9bf0a82d222422
+
+(スタンダードなUIからVueに慣れる②)　タブ切り替えがjs6行
+https://qiita.com/yske/items/7f1305ed904963d93729
