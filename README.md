@@ -92,3 +92,30 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
         }
     });
  
+
+## イベントの利用（onclick等）
+ 
+    // HTML
+    <button v-on:click="handleClick"></button>
+    
+    // JavaScript
+    var app = new Vue({
+  
+        el:'#app',
+        
+        // 関数はここに登録
+        methods: {
+            handleClick: function(event){
+                alert(event.targrt + "オンクリックイベント");
+            }
+        }
+    });
+ 
+ 
+ 参考（jQueryなしでさくっと色々作れそう...）
+ 
+ 【脱jQuery】Vue.jsで簡単に「トップへ戻るボタン」を作る方法
+ https://masatoshihanai.com/vue-scrollto/
+ 
+ Vue.jsでスクロールを検知する
+ https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a
