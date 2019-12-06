@@ -96,7 +96,7 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
 ## イベントの利用（onclick等）
  
     // HTML
-    <button v-on:click="handleClick"></button>
+    <button v-on:click="handleClick">ボタンを押す</button>
     
     // JavaScript
     var app = new Vue({
@@ -106,7 +106,7 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
         // 関数はここに登録
         methods: {
             handleClick: function(event){
-                alert(event.targrt + "オンクリックイベント");
+                alert(event.target + "オンクリックイベント");
             }
         }
     });
@@ -119,3 +119,6 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
  
  Vue.jsでスクロールを検知する
  https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a
+ 
+ 
+ ## 
