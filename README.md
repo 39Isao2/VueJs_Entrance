@@ -121,4 +121,18 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
  https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a
  
  
- ## 
+ ## フォーム入力と同期（リアルタイムで描画）
+ 
+    // HTML
+    <p>{{ message }}</p>
+    <input v-model="message">
+    
+    // JavaScript
+    var app = new Vue({
+  
+        el:'#app',
+        
+        data:{
+            message: "初期メッセージ"
+        }
+    });
