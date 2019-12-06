@@ -1,6 +1,27 @@
 # Vue.Js超入門!
-猫本使ってVue.js超入門します！
+猫本使ってVue.js超入門します！  （参考著書:基礎から学ぶ Vue.js）
 
-参考著書
+<img src="https://images-na.ssl-images-amazon.com/images/I/51UVfJB%2B8sL._SX351_BO1,204,203,200_.jpg" width="150px">
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/51UVfJB%2B8sL._SX351_BO1,204,203,200_.jpg" width="200px">
+# イントロダクション
+
+## これからののJavaScript
+はるか昔、JavaScriptはカーソルにキラキラ星を追尾させるのが主な仕事でした。　
+しかし、ここ数年のwebフロントエンド技術の進歩により、jsは単なる飾り装飾だけではなく、
+複雑なUIやWeb&スマホアプリや、なんとデスクトップアプリの実装にも使われるようになりました。
+
+そんな中、「Vue.jsが楽しい！」フロントエンド界隈でこのワードを耳にすることが多くなりました。
+「フレームワークって難しそう...」「Node.js? webpack? なんか必要知識が多そう」そんな風に感じる方も多いのではないでしょうか。
+しかし！なんとVueはたったこの一行を読み込めば使えます！   
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+（あらまぁjQueryみたい！）
+
+
+## Vue,jsのコンセプト
+「フレームワークは沢山の機能を持ったプロダクトで使われる」というイメージを持っている方が多いかもしれませんが、
+Vue.jsは手軽に小さくはじめられることも大切なコンセプトとして作られています。
+Vueの機能はどれも新鮮で面白く、フロントエンド開発が今までよりもっと楽しく夏ことでしょう！
+
+
