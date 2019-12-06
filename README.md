@@ -48,3 +48,26 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
         </script>
     </body>
     </html>
+
+１、アプリケーションの作成をはじめるには、コンストラクタ関数Vue()を使ってVueインスタンスを作成します。
+
+    var app = new Vue({
+        // ここにこの後、色々記述
+    });
+
+
+２、テンプレートに次のようにプロパティ名を記述するとその場所に値を描画します。
+
+    // HTML
+    <p>{{ message }}</p>
+    
+    
+    // JavaScript
+    var app = new Vue({
+  
+        el:'#app',
+        
+        data:{
+            nessage: "ここに好きなテキスト〜";
+        }
+    });
