@@ -165,6 +165,7 @@ https://v1-jp.vuejs.org/guide/overview.html
 # トランジションとアニメーション
 Vue.jsの「トランジション」はCSSトランジション/アニメーションをより簡単に使いやすくサポートする機能。
 
+    <button v-on:click="show=!show">トグルボタン</button>
     <transition>
         <div v-show="show">トランジションさせたい要素</div>
     </transition>
