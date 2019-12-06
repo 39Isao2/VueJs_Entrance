@@ -32,19 +32,19 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
 
 雛形↓
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>初めてのvue.js</title>
-</head>
-<body>
-    <div id="app">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>初めてのvue.js</title>
+    </head>
+    <body>
+        <div id="app">
         
-    </div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script>
 
         </script>
-</body>
-</html>
+    </body>
+    </html>
