@@ -161,3 +161,5 @@ https://v1-jp.vuejs.org/guide/overview.html
             show: true
         }
     });
+
+# トランジションとアニメーション(Vueの機能とCSSアニメの合体技)
