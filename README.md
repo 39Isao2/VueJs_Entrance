@@ -202,3 +202,10 @@ DOM要素から削除される時には「leave」という文字を含んだク
     .demo-enter, .demo-leave-to{
         opacity:0;
     }
+    
+    /*
+        初期描画時にもトランジション実行
+        <transition appear>
+            <div v-show="show">トランジションさせたい要素</div>
+        </transition>
+    *?
