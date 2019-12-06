@@ -68,6 +68,6 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
         el:'#app',
         
         data:{
-            nessage: "ここに好きなテキスト〜";
+            message: "ここに好きなテキスト〜";
         }
     });
