@@ -28,8 +28,12 @@ Vue.jsは、Evan You氏の個人プロジェクトとして始まり、2014年�
 2015年にはphpフレームワーク「Laravel」んpフロントエンジンとして使用され、一気に知名度がアップ。
 Adobeや任天堂、LineやGitLabなどでも採用されています。
 
-リアクティブデータバインディング（公式サイト）
-https://v1-jp.vuejs.org/guide/overview.html
+
+Vueの２代要素
+・リアクティブデータバインディング（今回はこっちの簡単なUI周りに触れます）
+・コンポーネント
+
+https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
 
 
 # さぁ、まずは書いてみる！
