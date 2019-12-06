@@ -163,4 +163,24 @@ https://v1-jp.vuejs.org/guide/overview.html
     });
 
 # トランジションとアニメーション
-Vue.jsの「トランジション」はCSSトランジション/アニメーションをより簡潔に使いやすくサポートする機能。
+Vue.jsの「トランジション」はCSSトランジション/アニメーションをより簡単に使いやすくサポートする機能。
+
+    <transition>
+        <div v-show="show">トランジションさせたい要素</div>
+    </transition>
+
+transition要素で囲むと中身がDOM要素に追加される時に「enter」、
+DOM要素から削除される時には「leave」という文字を含んだクラスが付与される。
+
+    // css <style>タグの中に
+    
+    /*1秒かけてfadeIn*/
+    .v-enter-active, .v-leave-active{
+        transition:opacity 1s;
+    }
+    
+    .v-enter, .v-leave-to{
+        opacity:0;
+    }
+     
+
