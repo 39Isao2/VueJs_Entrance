@@ -136,3 +136,24 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
             message: "初期メッセージ"
         }
     });
+
+
+ ## 条件分岐
+ 
+    // HTML
+    
+    <!-- showプロパティがtrueの時だけ表示 -->
+    <p v-if="show">ここが出たり消えたり</p>
+   
+    <button v-on:click="show=!show">トグルボタン</button>
+    
+    // JavaScript
+    var app = new Vue({
+  
+        el:'#app',
+        
+        data:{
+            // showプロパティがボタンを押すたびにtrue/falseに変化
+            show: true
+        }
+    });
