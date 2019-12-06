@@ -30,4 +30,21 @@ Adobeや任天堂、LineやGitLabなどでも採用されています。
 
 # さぁ、まずは書いてみる！
 
+雛形↓
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>初めてのvue.js</title>
+</head>
+<body>
+    <div id="app">
+        
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+
+        </script>
+</body>
+</html>
