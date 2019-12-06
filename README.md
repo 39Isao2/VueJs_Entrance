@@ -210,7 +210,7 @@ DOM要素から削除される時には「leave」という文字を含んだク
         </transition>
     *?
 
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーー<br>
 要素追加<br>
 .v-enter トランジション開始前<br>
 .v-enter-to トランジション中<br>
@@ -228,6 +228,33 @@ DOM要素から削除される時には「leave」という文字を含んだク
 要素が削除される時は .v-leave から .v-leave-to
 
 
+    <style type="text/css">
+
+    div{
+        width: 800px;
+        height: 800px;
+    }
+        .v-enter-active,
+        .v-leave-active{
+        transition:all 1s;
+    }
+
+    /* 表示する時は左から */
+    .v-enter{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    /* 消える時は下へ */
+    .v-leave-to{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    </style>
+    
+    <button v-on:click="show=!show">トグルボタン</button>
+    <transition>
+        <div v-show="show">トランジションさせたい要素</div>
+    </transition>
 
 
 
