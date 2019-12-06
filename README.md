@@ -220,7 +220,7 @@ DOM要素から削除される時には「leave」という文字を含んだク
 要素削除<br>
 .v-leave トランジション開始前<br>
 .v-leave-to トランジション中<br>
-.v-leave-active トランジション終了（要素存在）<br>
+.v-leave-active トランジション終了<br>
 
 
 要素が追加される時は .v-enter から .v-enter-to<br>
