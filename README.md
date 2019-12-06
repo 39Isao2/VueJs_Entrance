@@ -1,4 +1,4 @@
-# Vue.Js超超入門! 
+# Vue.Js超入門! 
 猫本使ってVue.js超入門します！  （参考著書:基礎から学ぶ Vue.js の一部）
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/51UVfJB%2B8sL._SX351_BO1,204,203,200_.jpg" width="150px">
@@ -259,9 +259,9 @@ DOM要素から削除される時には「leave」という文字を含んだク
 
 
 参考！<br>
-Vue.jsでスライドショー！
-https://qiita.com/ryo511/items/4c65caffb01ba13fb89b
-https://qiita.com/yske/items/7bc0df9bf0a82d222422
-
-(スタンダードなUIからVueに慣れる②)　タブ切り替えがjs6行
+Vue.jsでスライドショー！<br>
+https://qiita.com/ryo511/items/4c65caffb01ba13fb89b<br>
+https://qiita.com/yske/items/7bc0df9bf0a82d222422<br>
+<br>
+(スタンダードなUIからVueに慣れる②)　タブ切り替えがjs6行<br>
 https://qiita.com/yske/items/7f1305ed904963d93729
