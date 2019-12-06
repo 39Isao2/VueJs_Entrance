@@ -212,5 +212,16 @@ DOM要素から削除される時には「leave」という文字を含んだク
 
 ## これだけ覚えておくと迷わない
 
-要素が追加される時は .v-enter から .v-enter-to
+要素追加<br>
+.v-enter トランジション開始前<br>
+.v-enter-to トランジション中<br>
+.v-enter-active トランジション終了（要素存在）<br>
+
+要素削除<br>
+.v-leave トランジション開始前<br>
+.v-leave-to トランジション中<br>
+.v-leave-active トランジション終了（要素存在）<br>
+
+
+要素が追加される時は .v-enter から .v-enter-to<br>
 要素が削除される時は .v-leave から .v-leave-to
