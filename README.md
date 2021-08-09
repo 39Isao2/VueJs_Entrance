@@ -166,6 +166,40 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
         }
     });
 
+## class名の追加と削除
+'''
+  <div id="app">
+    <div class="btn">
+      <button v-on:click='is_active=!is_active' v-bind:class='{active:is_active}'>押して！</button>
+    </div>
+  </div>
+
+<style>
+.btn .active {
+  color: yellow;
+  background-color: #000;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+</style>
+
+
+
+    // JavaScript
+    var app = new Vue({
+        el: '#app',
+        data: {
+            is_active: false
+        }
+    });
+  
+'''
+ 
+ 
 # トランジションとアニメーション
 Vue.jsの「トランジション」はCSSトランジション/アニメーションをより簡単に使いやすくサポートする機能。
 
