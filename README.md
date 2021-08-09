@@ -167,7 +167,12 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
     });
 
 ## class名の追加と削除
-'''
+
+
+```
+
+
+
   <div id="app">
     <div class="btn">
       <button v-on:click='is_active=!is_active' v-bind:class='{active:is_active}'>押して！</button>
@@ -196,6 +201,7 @@ button {
             is_active: false
         }
     });
+    
   
 '''
  
