@@ -165,6 +165,34 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
             show: true
         }
     });
+    
+    
+## コンポーネント基本
+
+```
+<div id="app">
+    <hello/>
+</div>
+
+<script>
+    // JavaScript
+    Vue.component('hello', function(){
+        data:function(){
+            return {
+            message: "これはメッセージです"
+            },
+        },
+        template: '<p class="hello">{{message}}</p>'
+        
+    });
+
+
+    var app = new Vue({
+        el:'#app',
+    });
+</script>
+
+```
 
 ## class名の追加と削除 v-bind
 
