@@ -82,7 +82,7 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
     
 # いろんな基本機能 （チャプター1より）
 
-## 繰り返しの描画（foreach的な）
+## 繰り返しの描画（foreach的な） v-for
  
     // HTML
     <ul>
@@ -101,7 +101,7 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
     });
  
 
-## イベントの利用（onclick等）
+## イベントの利用（onclick等） v-on:click
  
     // HTML
     <button v-on:click="handleClick">ボタンを押す</button>
@@ -129,7 +129,7 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
  https://qiita.com/SatoTakumi/items/d88df8afae82c53d2d2a
  
  
- ## フォーム入力と同期（リアルタイムで描画）
+ ## フォーム入力と同期（リアルタイムで描画） v-model
  
     // HTML
     <p>{{ message }}</p>
@@ -146,7 +146,7 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
     });
 
 
- ## 条件分岐
+ ## 条件分岐 v-if
  
     // HTML
     
@@ -166,34 +166,21 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
         }
     });
 
-## class名の追加と削除
+## class名の追加と削除 v-bind
 
 
 ```
 
+    <div id="app">
+        <div class="btn">
+            <button v-on:click='is_active=!is_active' v-bind:class='{active:is_active}'>押して！</button>
+        </div>
+      </div>
+
+<script>
 
 
-  <div id="app">
-    <div class="btn">
-      <button v-on:click='is_active=!is_active' v-bind:class='{active:is_active}'>押して！</button>
-    </div>
-  </div>
-
-<style>
-.btn .active {
-  color: yellow;
-  background-color: #000;
-}
-
-button {
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-</style>
-
-
-
+// JavaScript
     // JavaScript
     var app = new Vue({
         el: '#app',
@@ -201,8 +188,8 @@ button {
             is_active: false
         }
     });
-    
-  
+
+</script>
   ```
 '''
  
