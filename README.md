@@ -176,15 +176,15 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
 
 <script>
     // JavaScript
-    Vue.component('hello', function(){
-        data:function(){
-            return {
-            message: "これはメッセージです"
-            },
-        },
-        template: '<p class="hello">{{message}}</p>'
-        
-    });
+  Vue.component('hello', {
+      data:function(){
+          return {
+          message: "これはメッセージです"
+          };
+      },
+      template: '<p class="hello">{{message}}</p>'
+      
+  });
 
 
     var app = new Vue({
