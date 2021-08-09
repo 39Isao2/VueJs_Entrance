@@ -194,6 +194,48 @@ https://v1-jp.vuejs.org/guide/overview.html（公式サイト）
 
 ```
 
+## props(親から子にデータを渡す)
+
+```
+
+Product.vue
+
+<template>
+  <h3>{{ name }}</h3>
+</template>
+
+<script>
+export default {
+  name: "Product",
+  props: ["name"],
+};
+</script>
+
+<style>
+</style>
+
+
+App.vue
+
+<template>
+  <div id="app">
+    <Product name="トートバッグ" />
+  </div>
+</template>
+
+<script>
+import Product from "./components/Product.vue";
+
+export default {
+  name: "App",
+  components: {
+    Product,
+  },
+};
+</script>
+
+```
+
 ## class名の追加と削除 v-bind
 
 
